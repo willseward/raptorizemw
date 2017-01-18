@@ -17,7 +17,7 @@ function include_js(url, success) {
 };
 
 function run_with_jquery(callback) {
-    var jq_url = 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+    var jq_url = 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
     if (typeof jQuery == 'undefined') {
         include_js(jq_url, callback);
     } else {
